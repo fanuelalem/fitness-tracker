@@ -1,8 +1,8 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const apiRoutes = require("./routes/api.js");
-const viewRoutes = require("./routes/view.js");
+const apiRoutes = require("./routes/api");
+const viewRoutes = require("./routes/view");
 
 
  
