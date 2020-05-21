@@ -6,7 +6,7 @@ const viewRoutes = require("./routes/view");
 
 
  
-const PORT = 5000;
+const PORT = process.env.PORT || 3000
 
 const app = express();
 
@@ -24,8 +24,8 @@ mongoose.connect("mongodb://localhost/workout", {
 });
 
 // routes
-app.use('/api',apiRoutes) 
-app.use('/',viewRoutes) 
+app.use('/api', apiRoutes) 
+app.use('/', viewRoutes) 
 
 // app.use(require("./routes/api"));
 // app.use(require("./routes/view"));
