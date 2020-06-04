@@ -3,7 +3,7 @@ const Workout = require('../models/workout')
 module.exports = {
 
     get_workout: (req,res)=>{
-        Workout.find()
+        Workout.find({})
         .then((response)=>{
             res.json(response)
         })
