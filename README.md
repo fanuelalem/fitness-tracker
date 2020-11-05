@@ -46,7 +46,7 @@ This project is currently not accepting any contributions.
 
 If you have any questions, please contact the project owner by clicking on the email listed below.
 
-#### gscalica@gmail.com
+#### fanuelnalem@outlook.com
 
 # Screenshots
 
